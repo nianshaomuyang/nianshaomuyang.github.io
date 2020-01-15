@@ -59,6 +59,7 @@ a{
 
 .article-list .item  {
   margin-bottom: 25px;
+  font-size: 35px;
 }
 
 .article-list .item .title,
@@ -77,4 +78,5 @@ a{
 .article-list .item > *,
 .article > * {
   margin: 10px 0;
+  color: #eee;
 }
