@@ -1,0 +1,80 @@
+body{
+
+    line-height:1.7;
+    background-image:url("../image/happy.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+a,body{
+    color:#eee;
+}
+a{
+    text-decoration:none;
+}
+.sidebar{
+    float:left;
+    width:20%;
+}
+.sidebar >*{
+    padding:10px 20px;
+}
+.sidebar .tag a{
+    display:block;
+    color:#888;
+    padding:5px;
+}
+.sidebar .tag a:hover{
+    color:#eee;
+
+}
+.main{
+    float:right;
+    width:80%;
+    color:#454545;
+}
+.logo{
+    line-height:1;
+    border:5px solid #eee;
+    padding:10px 20px;
+    font-size:30px;
+    display:inline-block;
+    margin-bottom:10px;
+}
+.article-list{
+
+    margin-right:30%;
+    padding: 20px 30px;
+}
+.article-list, .article {
+  margin-right: 30%;
+  padding: 20px 30px;
+}
+
+.article-list .item  {
+  margin-bottom: 25px;
+}
+
+.article-list .item .title,
+.article .title {
+  color: #eee;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.article-list .item .status,
+.article .status {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.article-list .item > *,
+.article > * {
+  margin: 10px 0;
+}
